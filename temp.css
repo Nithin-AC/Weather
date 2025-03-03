@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    color:white;
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('https://images.unsplash.com/photo-1495012379376-194a416fcc5f?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+.search1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 30rem;
+    margin-top: 1rem; 
+    padding: 0.5rem;
+}
+.search {
+    height: 2rem;
+    width: 100%;
+    border-radius: 50rem;
+    border: 1px solid #ccc;
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    margin-left:5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search::placeholder {
+    font-size: 1rem;
+}
+#icon {
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+}
+.card{
+    margin-top: 4rem;
+    height:31rem;
+    width:25rem;
+    border:2px solid white;
+    margin-left:5rem
+}
+.data
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country
+{
+    margin-top:1.2rem;
+    padding-left: 1rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.date
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:1.2rem;
+    padding-left: 2rem;
+    color:white;
+}
+section{
+    backdrop-filter: blur(10px);
+}
+#clouds
+{
+    height:8rem;  
+}
+.cloud
+{
+    display:flex;
+}
+h3
+{
+    color:white;
+    margin-left:2rem;
+    margin-top:3rem;
+}
+#droplet
+{
+    margin-left:2rem;
+    margin-top: 2rem;
+}
+#hum
+{
+    margin-top:0rem;
+}
+.info
+{
+    display:flex;
+    justify-content: space-around;
+}
+#wind
+{
+    margin-left:2rem;
+    margin-top: 2rem;
+}
+.sec1{
+    background: rgba(255,255,255,0.1);
+    width:10rem;
+    border-radius: 1rem;
+}
+#per,#per1
+{
+    margin-left:2rem;  
+}
+.matter
+{
+    display:flex;
+
+}
+.forecast
+{
+    margin-top: 1.5rem;
+    display: flex;
+}
+#foreimg
+{
+    height:5rem;
+    margin-left:0.8rem;
+    margin-top:0rem;
+    
+}
+.dates
+{
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.fore{
+   
+    background: rgba(255,255,255,0.1);
+    margin-left:0.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+.fdes{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top:0rem;
+}
+
+
